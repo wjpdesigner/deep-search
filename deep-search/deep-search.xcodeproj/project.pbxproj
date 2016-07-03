@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C5816E81D297862000E875A /* slkscr-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816E21D297862000E875A /* slkscr-webfont.eot */; };
-		2C5816E91D297862000E875A /* slkscr-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816E31D297862000E875A /* slkscr-webfont.woff */; };
 		2C5816F61D29791B000E875A /* FishBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F21D29791B000E875A /* FishBullet.wav */; };
 		2C5816F71D29791B000E875A /* FishHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F31D29791B000E875A /* FishHit.wav */; };
 		2C5816F81D29791B000E875A /* SubmarineBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F41D29791B000E875A /* SubmarineBullet.wav */; };
 		2C5816F91D29791B000E875A /* SubmarineHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F51D29791B000E875A /* SubmarineHit.wav */; };
+		2C5817391D297A80000E875A /* slkscr.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C5817381D297A7C000E875A /* slkscr.ttf */; };
 		2C6BF3341D04C2AE001B2BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */; };
-		2C6BF3361D04C2AE001B2BCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BF3351D04C2AE001B2BCB /* GameScene.sks */; };
 		2C6BF3381D04C2AE001B2BCB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3371D04C2AE001B2BCB /* GameScene.swift */; };
 		2C6BF33A1D04C2AE001B2BCB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3391D04C2AE001B2BCB /* GameViewController.swift */; };
 		2C6BF33D1D04C2AE001B2BCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BF33B1D04C2AE001B2BCB /* Main.storyboard */; };
 		2C6BF33F1D04C2AE001B2BCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BF33E1D04C2AE001B2BCB /* Assets.xcassets */; };
-		2C6BF3421D04C2AE001B2BCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BF3401D04C2AE001B2BCB /* LaunchScreen.storyboard */; };
 		2C6BF34D1D04C2AF001B2BCB /* deep_searchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF34C1D04C2AF001B2BCB /* deep_searchTests.swift */; };
 		2C6BF3581D04C2AF001B2BCB /* deep_searchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3571D04C2AF001B2BCB /* deep_searchUITests.swift */; };
 /* End PBXBuildFile section */
@@ -42,20 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C5816E21D297862000E875A /* slkscr-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slkscr-webfont.eot"; path = "Assets.xcassets/Misc/slkscr-webfont.eot"; sourceTree = "<group>"; };
-		2C5816E31D297862000E875A /* slkscr-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slkscr-webfont.woff"; path = "Assets.xcassets/Misc/slkscr-webfont.woff"; sourceTree = "<group>"; };
 		2C5816F21D29791B000E875A /* FishBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FishBullet.wav; path = Assets.xcassets/Misc/FishBullet.wav; sourceTree = "<group>"; };
 		2C5816F31D29791B000E875A /* FishHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FishHit.wav; path = Assets.xcassets/Misc/FishHit.wav; sourceTree = "<group>"; };
 		2C5816F41D29791B000E875A /* SubmarineBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SubmarineBullet.wav; path = Assets.xcassets/Misc/SubmarineBullet.wav; sourceTree = "<group>"; };
 		2C5816F51D29791B000E875A /* SubmarineHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SubmarineHit.wav; path = Assets.xcassets/Misc/SubmarineHit.wav; sourceTree = "<group>"; };
+		2C5817381D297A7C000E875A /* slkscr.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = slkscr.ttf; path = Assets.xcassets/Misc/slkscr.ttf; sourceTree = "<group>"; };
 		2C6BF3301D04C2AE001B2BCB /* deep-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deep-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C6BF3351D04C2AE001B2BCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2C6BF3371D04C2AE001B2BCB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2C6BF3391D04C2AE001B2BCB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2C6BF33C1D04C2AE001B2BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C6BF33E1D04C2AE001B2BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C6BF3411D04C2AE001B2BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C6BF3431D04C2AE001B2BCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C6BF3481D04C2AF001B2BCB /* deep-searchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "deep-searchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6BF34C1D04C2AF001B2BCB /* deep_searchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deep_searchTests.swift; sourceTree = "<group>"; };
@@ -93,12 +87,11 @@
 		2C5816DD1D29784A000E875A /* Misc */ = {
 			isa = PBXGroup;
 			children = (
+				2C5817381D297A7C000E875A /* slkscr.ttf */,
 				2C5816F21D29791B000E875A /* FishBullet.wav */,
 				2C5816F31D29791B000E875A /* FishHit.wav */,
 				2C5816F41D29791B000E875A /* SubmarineBullet.wav */,
 				2C5816F51D29791B000E875A /* SubmarineHit.wav */,
-				2C5816E21D297862000E875A /* slkscr-webfont.eot */,
-				2C5816E31D297862000E875A /* slkscr-webfont.woff */,
 			);
 			name = Misc;
 			sourceTree = "<group>";
@@ -128,12 +121,10 @@
 			children = (
 				2C5816DD1D29784A000E875A /* Misc */,
 				2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */,
-				2C6BF3351D04C2AE001B2BCB /* GameScene.sks */,
 				2C6BF3371D04C2AE001B2BCB /* GameScene.swift */,
 				2C6BF3391D04C2AE001B2BCB /* GameViewController.swift */,
 				2C6BF33B1D04C2AE001B2BCB /* Main.storyboard */,
 				2C6BF33E1D04C2AE001B2BCB /* Assets.xcassets */,
-				2C6BF3401D04C2AE001B2BCB /* LaunchScreen.storyboard */,
 				2C6BF3431D04C2AE001B2BCB /* Info.plist */,
 			);
 			path = "deep-search";
@@ -262,11 +253,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5816E91D297862000E875A /* slkscr-webfont.woff in Resources */,
 				2C5816F91D29791B000E875A /* SubmarineHit.wav in Resources */,
-				2C6BF3361D04C2AE001B2BCB /* GameScene.sks in Resources */,
-				2C5816E81D297862000E875A /* slkscr-webfont.eot in Resources */,
-				2C6BF3421D04C2AE001B2BCB /* LaunchScreen.storyboard in Resources */,
+				2C5817391D297A80000E875A /* slkscr.ttf in Resources */,
 				2C6BF33F1D04C2AE001B2BCB /* Assets.xcassets in Resources */,
 				2C6BF33D1D04C2AE001B2BCB /* Main.storyboard in Resources */,
 				2C5816F81D29791B000E875A /* SubmarineBullet.wav in Resources */,
@@ -340,14 +328,6 @@
 				2C6BF33C1D04C2AE001B2BCB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C6BF3401D04C2AE001B2BCB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C6BF3411D04C2AE001B2BCB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -47,10 +47,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     let kFishGridSpacing = CGSize(width: 19, height: 30)
-    let kFishRowCount = 6
-    let kFishColCount = 6
+    let kFishRowCount = 1
+    let kFishColCount = 1
     
-    let kSubmarineSize = CGSize(width: 21, height: 43)
+    let kSubmarineSize = CGSize(width: 27, height: 43)
     let kSubmarineName = "submarine"
     
     let kSubmarineFiredBulletName = "submarineFiredBullet"
@@ -98,22 +98,34 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     // Scene Setup and Content Creation
     
-    func makeFishOfType(fishType: FishType) -> SKNode {
-        // 1
-        var fishColor: SKColor
+    func loadFishTexturesOfType(fishType: FishType) -> [SKTexture] {
+        
+        var prefix: String
         
         switch(fishType) {
         case .A:
-            fishColor = SKColor.redColor()
+            prefix = "FishA"
         case .B:
-            fishColor = SKColor.greenColor()
+            prefix = "FishA"
         case .C:
-            fishColor = SKColor.blueColor()
+            prefix = "FishA"
         }
         
+        // 1
+        return [SKTexture(imageNamed: String(format: "%@_00.png", prefix)),
+                SKTexture(imageNamed: String(format: "%@_01.png", prefix))]
+    }
+    
+    func makeFishOfType(fishType: FishType) -> SKNode {
+        
+        let fishTextures = loadFishTexturesOfType(fishType)
+        
         // 2
-        let fish = SKSpriteNode(color: fishColor, size: FishType.size)
+        let fish = SKSpriteNode(texture: fishTextures[0])
         fish.name = FishType.name
+        
+        // 3
+        fish.runAction(SKAction.repeatActionForever(SKAction.animateWithTextures(fishTextures, timePerFrame: timePerMove)))
         
         fish.physicsBody = SKPhysicsBody(rectangleOfSize: fish.frame.size)
         fish.physicsBody!.dynamic = false
@@ -148,7 +160,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             var fishPosition = CGPoint(x: baseOrigin.x, y: fishPositionY)
             
             // 4
-            for _ in 1..<kFishColCount {
+            for _ in 0..<kFishColCount {
                 
                 // 5
                 let fish = makeFishOfType(fishType)
@@ -172,7 +184,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func makeSubmarine() -> SKNode {
-        let submarine = SKSpriteNode(color: SKColor.greenColor(), size: kSubmarineSize)
+        let submarine = SKSpriteNode(imageNamed: "Submarine.png")
         submarine.name = kSubmarineName
         
         // 1
@@ -199,7 +211,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     func setupHud() {
         // 1
-        let scoreLabel = SKLabelNode(fontNamed: "SilkscreenNormal")
+        let scoreLabel = SKLabelNode(fontNamed: "silkscreen")
         scoreLabel.name = kScoreHudName
         scoreLabel.fontSize = 25
         
@@ -209,13 +221,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // 3
         scoreLabel.position = CGPoint(
-            x: frame.size.width / 2,
-            y: size.height - (40 + scoreLabel.frame.size.height/2)
+            x: frame.size.width - (scoreLabel.frame.size.width/2) - 2,
+            y: size.height - (scoreLabel.frame.size.height) - 2
         )
         addChild(scoreLabel)
         
         // 4
-        let healthLabel = SKLabelNode(fontNamed: "SilkscreenNormal")
+        let healthLabel = SKLabelNode(fontNamed: "silkscreen")
         healthLabel.name = kHealthHudName
         healthLabel.fontSize = 25
         
@@ -225,8 +237,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         // 6
         healthLabel.position = CGPoint(
-            x: frame.size.width / 2,
-            y: size.height - (80 + healthLabel.frame.size.height/2)
+            x: 0 + (healthLabel.frame.size.width/2) + 2,
+            y: size.height - (healthLabel.frame.size.height) - 2
         )
         addChild(healthLabel)
     }
