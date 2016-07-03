@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C5816CA1D2960D9000E875A /* FishBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816C61D2960D9000E875A /* FishBullet.wav */; };
+		2C5816CB1D2960D9000E875A /* FishHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816C71D2960D9000E875A /* FishHit.wav */; };
+		2C5816CC1D2960D9000E875A /* SubmarineBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816C81D2960D9000E875A /* SubmarineBullet.wav */; };
+		2C5816CD1D2960D9000E875A /* SubmarineHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816C91D2960D9000E875A /* SubmarineHit.wav */; };
 		2C6BF3341D04C2AE001B2BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */; };
 		2C6BF3361D04C2AE001B2BCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BF3351D04C2AE001B2BCB /* GameScene.sks */; };
 		2C6BF3381D04C2AE001B2BCB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3371D04C2AE001B2BCB /* GameScene.swift */; };
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C5816C61D2960D9000E875A /* FishBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FishBullet.wav; path = ../../../../../Downloads/FishBullet.wav; sourceTree = "<group>"; };
+		2C5816C71D2960D9000E875A /* FishHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FishHit.wav; path = ../../../../../Downloads/FishHit.wav; sourceTree = "<group>"; };
+		2C5816C81D2960D9000E875A /* SubmarineBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SubmarineBullet.wav; path = ../../../../../Downloads/SubmarineBullet.wav; sourceTree = "<group>"; };
+		2C5816C91D2960D9000E875A /* SubmarineHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SubmarineHit.wav; path = ../../../../../Downloads/SubmarineHit.wav; sourceTree = "<group>"; };
+		2C5816CF1D296F61000E875A /* slkscr-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slkscr-webfont.eot"; path = "../../../../../Desktop/fonts/slkscr-webfont.eot"; sourceTree = "<group>"; };
+		2C5816D01D296F61000E875A /* slkscr-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slkscr-webfont.woff"; path = "../../../../../Desktop/fonts/slkscr-webfont.woff"; sourceTree = "<group>"; };
 		2C6BF3301D04C2AE001B2BCB /* deep-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deep-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6BF3351D04C2AE001B2BCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -78,6 +88,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C5816C51D296089000E875A /* Sound Effects */ = {
+			isa = PBXGroup;
+			children = (
+				2C5816C61D2960D9000E875A /* FishBullet.wav */,
+				2C5816C71D2960D9000E875A /* FishHit.wav */,
+				2C5816C81D2960D9000E875A /* SubmarineBullet.wav */,
+				2C5816C91D2960D9000E875A /* SubmarineHit.wav */,
+			);
+			name = "Sound Effects";
+			sourceTree = "<group>";
+		};
+		2C5816CE1D296F46000E875A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2C5816CF1D296F61000E875A /* slkscr-webfont.eot */,
+				2C5816D01D296F61000E875A /* slkscr-webfont.woff */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		2C6BF3271D04C2AE001B2BCB = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +131,8 @@
 		2C6BF3321D04C2AE001B2BCB /* deep-search */ = {
 			isa = PBXGroup;
 			children = (
+				2C5816CE1D296F46000E875A /* Fonts */,
+				2C5816C51D296089000E875A /* Sound Effects */,
 				2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */,
 				2C6BF3351D04C2AE001B2BCB /* GameScene.sks */,
 				2C6BF3371D04C2AE001B2BCB /* GameScene.swift */,
@@ -238,8 +270,12 @@
 			files = (
 				2C6BF3361D04C2AE001B2BCB /* GameScene.sks in Resources */,
 				2C6BF3421D04C2AE001B2BCB /* LaunchScreen.storyboard in Resources */,
+				2C5816CC1D2960D9000E875A /* SubmarineBullet.wav in Resources */,
+				2C5816CB1D2960D9000E875A /* FishHit.wav in Resources */,
 				2C6BF33F1D04C2AE001B2BCB /* Assets.xcassets in Resources */,
 				2C6BF33D1D04C2AE001B2BCB /* Main.storyboard in Resources */,
+				2C5816CA1D2960D9000E875A /* FishBullet.wav in Resources */,
+				2C5816CD1D2960D9000E875A /* SubmarineHit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +531,7 @@
 				2C6BF35E1D04C2AF001B2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C6BF35F1D04C2AF001B2BCB /* Build configuration list for PBXNativeTarget "deep-searchTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +540,7 @@
 				2C6BF3611D04C2AF001B2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C6BF3621D04C2AF001B2BCB /* Build configuration list for PBXNativeTarget "deep-searchUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +549,7 @@
 				2C6BF3641D04C2AF001B2BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
