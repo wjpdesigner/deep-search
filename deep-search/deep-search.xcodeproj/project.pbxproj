@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C5816E41D297862000E875A /* InvaderBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816DE1D297862000E875A /* InvaderBullet.wav */; };
-		2C5816E51D297862000E875A /* InvaderHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816DF1D297862000E875A /* InvaderHit.wav */; };
-		2C5816E61D297862000E875A /* ShipBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816E01D297862000E875A /* ShipBullet.wav */; };
-		2C5816E71D297862000E875A /* ShipHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816E11D297862000E875A /* ShipHit.wav */; };
 		2C5816E81D297862000E875A /* slkscr-webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816E21D297862000E875A /* slkscr-webfont.eot */; };
 		2C5816E91D297862000E875A /* slkscr-webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816E31D297862000E875A /* slkscr-webfont.woff */; };
+		2C5816F61D29791B000E875A /* FishBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F21D29791B000E875A /* FishBullet.wav */; };
+		2C5816F71D29791B000E875A /* FishHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F31D29791B000E875A /* FishHit.wav */; };
+		2C5816F81D29791B000E875A /* SubmarineBullet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F41D29791B000E875A /* SubmarineBullet.wav */; };
+		2C5816F91D29791B000E875A /* SubmarineHit.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2C5816F51D29791B000E875A /* SubmarineHit.wav */; };
 		2C6BF3341D04C2AE001B2BCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */; };
 		2C6BF3361D04C2AE001B2BCB /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2C6BF3351D04C2AE001B2BCB /* GameScene.sks */; };
 		2C6BF3381D04C2AE001B2BCB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6BF3371D04C2AE001B2BCB /* GameScene.swift */; };
@@ -42,12 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C5816DE1D297862000E875A /* InvaderBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = InvaderBullet.wav; path = Assets.xcassets/Misc/InvaderBullet.wav; sourceTree = "<group>"; };
-		2C5816DF1D297862000E875A /* InvaderHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = InvaderHit.wav; path = Assets.xcassets/Misc/InvaderHit.wav; sourceTree = "<group>"; };
-		2C5816E01D297862000E875A /* ShipBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ShipBullet.wav; path = Assets.xcassets/Misc/ShipBullet.wav; sourceTree = "<group>"; };
-		2C5816E11D297862000E875A /* ShipHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ShipHit.wav; path = Assets.xcassets/Misc/ShipHit.wav; sourceTree = "<group>"; };
 		2C5816E21D297862000E875A /* slkscr-webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slkscr-webfont.eot"; path = "Assets.xcassets/Misc/slkscr-webfont.eot"; sourceTree = "<group>"; };
 		2C5816E31D297862000E875A /* slkscr-webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slkscr-webfont.woff"; path = "Assets.xcassets/Misc/slkscr-webfont.woff"; sourceTree = "<group>"; };
+		2C5816F21D29791B000E875A /* FishBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FishBullet.wav; path = Assets.xcassets/Misc/FishBullet.wav; sourceTree = "<group>"; };
+		2C5816F31D29791B000E875A /* FishHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = FishHit.wav; path = Assets.xcassets/Misc/FishHit.wav; sourceTree = "<group>"; };
+		2C5816F41D29791B000E875A /* SubmarineBullet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SubmarineBullet.wav; path = Assets.xcassets/Misc/SubmarineBullet.wav; sourceTree = "<group>"; };
+		2C5816F51D29791B000E875A /* SubmarineHit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = SubmarineHit.wav; path = Assets.xcassets/Misc/SubmarineHit.wav; sourceTree = "<group>"; };
 		2C6BF3301D04C2AE001B2BCB /* deep-search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "deep-search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C6BF3331D04C2AE001B2BCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C6BF3351D04C2AE001B2BCB /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -93,10 +93,10 @@
 		2C5816DD1D29784A000E875A /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				2C5816DE1D297862000E875A /* InvaderBullet.wav */,
-				2C5816DF1D297862000E875A /* InvaderHit.wav */,
-				2C5816E01D297862000E875A /* ShipBullet.wav */,
-				2C5816E11D297862000E875A /* ShipHit.wav */,
+				2C5816F21D29791B000E875A /* FishBullet.wav */,
+				2C5816F31D29791B000E875A /* FishHit.wav */,
+				2C5816F41D29791B000E875A /* SubmarineBullet.wav */,
+				2C5816F51D29791B000E875A /* SubmarineHit.wav */,
 				2C5816E21D297862000E875A /* slkscr-webfont.eot */,
 				2C5816E31D297862000E875A /* slkscr-webfont.woff */,
 			);
@@ -262,16 +262,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5816E71D297862000E875A /* ShipHit.wav in Resources */,
 				2C5816E91D297862000E875A /* slkscr-webfont.woff in Resources */,
+				2C5816F91D29791B000E875A /* SubmarineHit.wav in Resources */,
 				2C6BF3361D04C2AE001B2BCB /* GameScene.sks in Resources */,
 				2C5816E81D297862000E875A /* slkscr-webfont.eot in Resources */,
 				2C6BF3421D04C2AE001B2BCB /* LaunchScreen.storyboard in Resources */,
-				2C5816E51D297862000E875A /* InvaderHit.wav in Resources */,
 				2C6BF33F1D04C2AE001B2BCB /* Assets.xcassets in Resources */,
-				2C5816E61D297862000E875A /* ShipBullet.wav in Resources */,
 				2C6BF33D1D04C2AE001B2BCB /* Main.storyboard in Resources */,
-				2C5816E41D297862000E875A /* InvaderBullet.wav in Resources */,
+				2C5816F81D29791B000E875A /* SubmarineBullet.wav in Resources */,
+				2C5816F71D29791B000E875A /* FishHit.wav in Resources */,
+				2C5816F61D29791B000E875A /* FishBullet.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
